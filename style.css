@@ -173,3 +173,39 @@ a.article:hover {
         display: none;
     }
 }
+
+h1 {
+    font-size: 5em;
+    font-family: serif;
+    color: #90c6ef;
+    text-align: center;
+    animation: animate 
+        2.0s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1.0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+#wake {
+    text-align: center;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
