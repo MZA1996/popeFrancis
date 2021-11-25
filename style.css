@@ -1,7 +1,7 @@
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 body {
     font-family: 'Poppins', sans-serif;
-    background: #fafafa;
+    background: #ccd4d2;
 }
 
 p {
@@ -9,7 +9,7 @@ p {
     font-size: 1.1em;
     font-weight: 300;
     line-height: 1.7em;
-    color: #999;
+    color: rgb(83, 83, 83);
 }
 
 a,
@@ -22,7 +22,7 @@ a:focus {
 
 .navbar {
     padding: 15px 10px;
-    background: #fff;
+    background: #82a1a3;
     border: none;
     border-radius: 0;
     margin-bottom: 40px;
@@ -55,7 +55,7 @@ a:focus {
 #sidebar {
     min-width: 250px;
     max-width: 250px;
-    background: #7386D5;
+    background: #82a1a3;
     color: #fff;
     transition: all 0.3s;
 }
@@ -66,7 +66,7 @@ a:focus {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: #6d7fcc;
+    background: #6b4a3b;
 }
 
 #sidebar ul.components {
@@ -75,7 +75,7 @@ a:focus {
 }
 
 #sidebar ul p {
-    color: #fff;
+    color: rgb(0, 0, 0);
     padding: 10px;
 }
 
@@ -86,14 +86,14 @@ a:focus {
 }
 
 #sidebar ul li a:hover {
-    color: #7386D5;
+    color: #2e3c56;
     background: #fff;
 }
 
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
     color: #fff;
-    background: #6d7fcc;
+    background: #90c6ef;
 }
 
 a[data-toggle="collapse"] {
@@ -111,7 +111,7 @@ a[data-toggle="collapse"] {
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #6d7fcc;
+    background: #2e3c56;
 }
 
 ul.CTAs {
@@ -133,7 +133,17 @@ a.download {
 
 a.article,
 a.article:hover {
-    background: #6d7fcc !important;
+    background: #868686 !important;
+    color: #fff !important;
+}
+a.article_spot,
+a.article:hover {
+    background: #1DB954 !important;
+    color: #fff !important;
+}
+a.article_apple,
+a.article:hover {
+    background: #c2cad7 !important;
     color: #fff !important;
 }
 
@@ -162,4 +172,40 @@ a.article:hover {
     #sidebarCollapse span {
         display: none;
     }
+}
+
+h1 {
+    font-size: 5em;
+    font-family: serif;
+    color: #90c6ef;
+    text-align: center;
+    animation: animate 
+        2.0s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1.0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+#wake {
+    text-align: center;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
 }
